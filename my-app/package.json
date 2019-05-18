@@ -1,0 +1,13 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testExample": "tees run ./src/example.js --params '' -D -S --testerCLI '--clearCache' --drivers puppeteer",
+  },
+  "dependencies": {
+    "tees": "^1.0.0-alpha.31"
+  },
+  "license": "MIT"
+}
